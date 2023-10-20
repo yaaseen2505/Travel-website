@@ -1,0 +1,88 @@
+/* =========================
+   Global Styles and Resets
+   ========================= */
+
+
+/* General styles for all elements */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Default text styling */
+p {
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    color: #C4BEB5;
+    text-align: center;
+}
+
+/* Sub-header styling */
+h3, h4 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #2F332D;
+}
+
+
+/* =========================
+   Navigation Styles
+   ========================= */
+
+/* Main navigation container styling */
+#Navigation {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cfaa3bb9;
+    padding: 10px;
+}
+
+/* Navigation link styling */
+#Navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation link hover effect */
+#Navigation a:hover {
+    color: brown;
+}
+
+
+/* =========================
+   Image Styles
+   ========================= */
+
+/* Centering the image */
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* =========================
+   Contact & Social Links Styles
+   ========================= */
+
+/* Contact container styling */
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cfaa3bb9;
+    padding: 10px;
+}
+
+/* Contact link styling */
+#contact a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Contact link hover effect */
+#contact a:hover,
+#reviews a:hover { /* Note: I've combined the hover effect for contact and reviews links */
+    color: brown;
+}
